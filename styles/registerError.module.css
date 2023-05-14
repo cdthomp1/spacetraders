@@ -1,0 +1,32 @@
+.display {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.subrow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.value {
+    flex: 1;
+}
+
+.subkey {
+    font-weight: bold;
+}
+
+.subvalue {
+    flex: 1;
+}
